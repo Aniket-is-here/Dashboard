@@ -1,0 +1,25 @@
+.userlist {
+    @include getCardStyles;
+    .userinfo {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+      @include getCardIconStyle;
+    }
+    .user {
+      display: flex;
+      margin-bottom: 1rem;
+      gap: 1rem;
+      img {
+        border-radius: 2rem;
+        height: 2.5rem;
+      }
+      .song_meta {
+        display: flex;
+        gap: 1rem;
+        position: absolute;
+        right: 60px;
+      }
+    }
+  }
+
